@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {useState} from 'react';
+import Wellcom from './components/Wellcom';
+import Gest from './components/Gest';
+import List from './components/List';
+import ProductsLists from './components/ProductsLists';
 function App() {
+  const [isLoggedIN, setIsLoggedIN] = useState(false);
+
+  // let elment =  isLoggedIN ?  <h1>i'm loged in</h1> : <h1>i'm not loged in</h1>
+  
+  // let elment;
+  // if (isLoggedIN) {
+  //   elment = <h1>i'm loged in</h1>
+  // }else{
+  //   elment = <h1>i'm not loged in</h1>
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // // <div className="App">
+    //   {/* <button onClick={() => setIsLoggedIN(true)}>log-in</button> */}
+    //   {/* {elment} */}
+    //   {/* {isLoggedIN ?  <h1>i'm loged in</h1> : <h1>i'm not loged in</h1>} */}
+    //   {/* {isLoggedIN ? <Wellcom name="youssef"/> : <Gest />} */}
+    //   {/* <List />  */}
+    //   // </div>
+      <ProductsLists />
+      );
 }
 
 export default App;
