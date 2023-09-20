@@ -1,0 +1,11 @@
+.side-bar{
+  min-height:  100vh;
+  background-color: #f8f9fa;
+}
+.side-bar li {
+  padding: 10px 5px;
+  text-align: center;
+}
+.side-bar li a{
+  text-decoration: none;
+}
