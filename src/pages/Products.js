@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Products.css";
 import Swal from "sweetalert2";
 
+
 const Products = () => {
   const [allProducts, setAllProducts] = useState([]);
   const getAllProducts = () => {
@@ -67,8 +68,8 @@ const Products = () => {
                   >
                     View
                   </Link>
-                  <button className="btn btn-primary btn-sm">Edit</button>
-                </td>
+                  <Link className="btn btn-primary btn-sm" to={`edit/${product.id}`} >Edit</Link>
+                </td> 
               </tr>
             );
           })}

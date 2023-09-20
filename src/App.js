@@ -19,7 +19,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='products' element={<Products />} />
-            <Route path='products/add' element={<AddProduct />} />
+            <Route path='products/add' element={<AddProduct h1="Add new" btn="Add" isAdd={true}/>} />
+            <Route path='products/edit/:productId' element={<AddProduct h1="Edit" btn="Edit" isAdd={false} />} />
             <Route path='products/:productId' element={<ProductDetails />} />
         
             

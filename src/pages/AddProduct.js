@@ -1,16 +1,29 @@
 import { useState } from "react";
 import axios from 'axios';
-import {useNavigate} from 'react-router-dom';
-const AddProduct = () => {
+import {useNavigate, useParams} from 'react-router-dom';
+const AddProduct = (props) => {
+  const params = useParams()
+  
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState(0);
   const navigate = useNavigate()
   const sendData = () => {
-    axios.post("http://localhost:9000/products",{
+    console.log(props.isAdd)
+    if (props.isAdd) {
+      console.log("1")
+      axios.post("http://localhost:9000/products",{
       title,
       price
     })
     .then(data => navigate("/products"))
+    }else{
+      console.log("2")
+      axios.put(`http://localhost:9000/products/${params.productId}`,{
+      title,
+      price
+    })
+    .then(data => navigate("/products"))
+    }
 
   //   fetch("http://localhost:9000/products", {
   //     method: "POST",
@@ -25,7 +38,7 @@ const AddProduct = () => {
 
   return (
     <>
-      <h1>Add new product</h1>
+      <h1>{props.h1} product</h1>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -62,7 +75,7 @@ const AddProduct = () => {
         </div>
 
         <button type="submit" className="btn btn-primary">
-          Add
+          {props.btn}
         </button>
       </form>
     </>

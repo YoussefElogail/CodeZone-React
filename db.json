@@ -26,9 +26,14 @@
       "id": 10
     },
     {
-      "title": "retr",
-      "price": 45643,
+      "title": "321",
+      "price": 321,
       "id": 12
+    },
+    {
+      "title": "test 2",
+      "price": 654321,
+      "id": 13
     }
   ]
 }

@@ -20,7 +20,6 @@ const ProductDetails = () => {
     <>
       <>
         <h1>product id is :{product.id} </h1>
-
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">{product.title}</h5>
