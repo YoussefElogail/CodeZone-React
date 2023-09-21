@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
-import {Routes,Route} from 'react-router-dom';
+import {Routes,Route, Outlet} from 'react-router-dom';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import AddProduct from './pages/AddProduct';
@@ -18,12 +18,16 @@ function App() {
         <div className="col-9 ">
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='products' element={<Products />} />
-            <Route path='products/add' element={<AddProduct h1="Add new" btn="Add" isAdd={true}/>} />
-            <Route path='products/edit/:productId' element={<AddProduct h1="Edit" btn="Edit" isAdd={false} />} />
-            <Route path='products/:productId' element={<ProductDetails />} />
-        
-            
+            <Route path='/products' element={
+                <>
+                  <Outlet />
+                </>
+              } >
+              <Route path='' element={<Products />} />
+              <Route path='add' element={<AddProduct h1="Add new" btn="Add" isAdd={true}/>} />
+              <Route path='edit/:productId' element={<AddProduct h1="Edit" btn="Edit" isAdd={false} />} />
+              <Route path=':productId' element={<ProductDetails />} />
+            </Route>
           </Routes>
         </div>
       </div>

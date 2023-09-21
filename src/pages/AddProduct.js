@@ -27,14 +27,17 @@ const AddProduct = (props) => {
 
   //   fetch("http://localhost:9000/products", {
   //     method: "POST",
-  //     body: {
+  //     headers: {
+  //       "Content-Type" : "Application/json"
+  //     },
+  //     body: JSON.stringify({
   //       "title" :title,
   //       "price" : price
-  //     }
+  //     })
   //   })
   //     .then((res) => res.json())
   //     .then((data) => console.log(data));
-   };
+  //  };
 
   return (
     <>
