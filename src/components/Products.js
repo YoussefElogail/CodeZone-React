@@ -16,7 +16,7 @@ const Products = () => {
   return (
     <main className="mt-5 py-3">
       <Container >
-        <Row className=" align-items-center justify-content-between">
+        {products[0] === undefined ? <h1>Loading.....</h1>:<Row className=" align-items-center justify-content-between">
           {products.map((product) => {
             return(
               <Col key={product.id} className="col-12 col-sm-6 col-lg-3 mt-1 mb-1">
@@ -36,7 +36,7 @@ const Products = () => {
           </Col>
             )
           })}
-        </Row>
+        </Row>}
       </Container>
     </main>
   );
