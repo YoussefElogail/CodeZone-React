@@ -1,70 +1,133 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">session-2</h1>
 
-## Available Scripts
+<div dir="rtl">
+<a  href="https://youtu.be/HpZSCZavKL0?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn"> رابط الفيديو</a>
+<p>
+  
+1- شرح ال components في ال react
+<br/>
+ في الدقيقة  00:01:40
+ <ul dir="rtl">
+   <li >
+     <p >
+     react function component
+        <br/>
+       في الدقيقة   00:05:10
+      </p>
+     <ul dir="rtl">
+       <li>
+         <p>
+             شرح ال props اللي في ال function component , ال props  دي عبارة عن parameter بس ليها وظيفة معية في ال react
+           <br/>
+           في الدقيقة 00:05:10 
+         </p>
+       </li>
+     </ul>
+   </li>
 
-In the project directory, you can run:
+   <li >
+     <p >
+     react class component
+        <br/>
+       في الدقيقة 00:12:30
+       <ul dir="rtl">
+       <li>
+         <p>
+             شرح ال props اللي في ال class component
+           <br/>
+          في الدقيقة 00:16:55 
+         </p>
+       </li>
+     </ul>
+      </p>
+   </li>
 
-### `npm start`
+  <li>
+     <p dir="rtl">
+     composing components ,  يعني component بينادي علي component تاني وهاكذا
+        <br/>
+       في الدقيقة 00:25:55
+      </p>
+     
+   </li>
+ </ul>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>
+  
+2- ال state في ال react
+<br/>
+ في الدقيقة 00:34:40
+ <br/>
+ *ملحوظة الفرق بين ال props و ال state : <br/>
+ ال props هي ال data اللي بتيجي من خارج ال component , و ال state  هي ال data اللي بتبقي داخل ال component*
+ <ul dir="rtl">
+   <li >
+     <p >
+     ال state في ال class component
+        <br/>
+       في الدقيقة 00:41:55
+      </p>
+   </li>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   <li >
+     <p >
+     component lifecycle  (lifecycle diagram)
+        <br/>
+       في الدقيقة 00:47:50
+      </p>
+   </li>
 
-### `npm test`
+  <li>
+     <p dir="rtl">
+     setState function to class components
+        <br/>
+       في الدقيقة 00:56:35
+      </p>
+     
+   </li>
+    <li>
+     <p dir="rtl">
+ال react Hooks دي بتشتغل مع ال function components
+        <br/>
+      في الدقيقة 01:03:40
+      </p>
+      <ul dir="rtl">
+       <li>
+         <p>
+             useState
+           <br/>
+         في الدقيقة 01:06:10 
+         </p>
+       </li>
+     </ul>
+   </li>
+ </ul>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p dir="rtl">
+3- handling events 
+<br/>
+ في الدقيقة 01:14:15
+</p>
 
-### `npm run build`
+<p >
+4- مراجع علي ال components  و props و  state 
+<br/>
+ في الدقيقة 01:19:25
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p >
+5- ال setState في ال class component
+<br/>
+ في الدقيقة 01:27:15
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p dir="rtl">
+6- form component by function component and class component
+<br/>
+ في الدقيقة 01:32:20
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
