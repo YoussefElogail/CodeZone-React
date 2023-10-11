@@ -137,4 +137,17 @@
   <br/>
 في الدقيقة 01:38:30
 </p>
+<br/>
+<h2 align="center"> session-7</h2>
+<a  href="https://youtu.be/JwALPyRlIjQ?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn"> رابط الفيديو</a>
+<p>
+ 1- حل مشكلة التعديل علي ال data اللي جاية من ال API بي ال fetch (axios منجزة اكثر بس مهم اعرف ازاي اتعامل مع كلة)
+  <br/>
+  في الدقيقة 00:00:00
+</p>
+<p>
+  2- nested routes react router 
+  <br/>
+  في الدقيقة 00:02:40
+</p>
 </div>
